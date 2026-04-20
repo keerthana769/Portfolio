@@ -1,3 +1,4 @@
+<!--  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="Keerthana's Portfolio" />
   <meta property="og:description" content="A simple responsive web developer portfolio using HTML, CSS and JS." />
-  <!-- <meta property="og:image" content="link" /> -->
-
-  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png"> -->
 
   <title>Keerthana's Portfolio</title>
 
@@ -18,26 +16,12 @@
   type="font/woff2"
   crossorigin />
 
-  <link
-    rel="preload"
-    href="./fonts/red-hat-display-v21-latin-500.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin />
-
-  <link
-    rel="preload"
-    href="./fonts/red-hat-display-v21-latin-900.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin />
-
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <h1>Keerthana Gurram</h1>
-        <nav>
+        <h1 class="header__name">Keerthana Gurram</h1>
+        <nav class="header__nav">
             <a href="#contact">Mail</a>
             <a href="#about">Linkedin</a>
             <a href="#projects">Github</a>
@@ -45,7 +29,7 @@
         </nav>
     </header>
     <main>
-        <section id="about">
+        <section class="about">
             <h2>Hi, My name is Keerthana. </h2>
             <p>I'm an aspiring web developer. It took along time for me to realize how much i love playing with websites and how happy i feel when creating them. 
                 Right from the time of my realization, i got hold of it and here I am creating my personal website.</p>
@@ -54,60 +38,115 @@
                 <img src="" alt="Keerthana's profile image">
             </article>
         </section>
-        <section id="skills">
-            <h2>My Skills</h2>
-            <ul>
-                <li>s1</li>
-                <li>s2</li>
-                <li>s3</li>
-            </ul>
+        <section class="section">
+          <h2>Skills</h2>
+          <div class="grid">
+            <div>
+              <h3>Frontend</h3>
+              <p>HTML5, CSS3, JavaScript, Flexbox, Grid</p>
+            </div>
+            <div>
+              <h3>Tools</h3>
+              <p>Git, GitHub, VS Code, Figma</p>
+            </div>
+            <div>
+              <h3>Other</h3>
+              <p>Python, Java, SQL</p>
+            </div>
+          </div>
         </section>
+        <section class="section">
+          <h2>Projects</h2>
+                <article>
+                  <h3>Project Title</h3>
+                  <p>Description</p>
+                  <a href="#">Live Demo</a>
+                </article>
+          <div class="projects">
+            <div class="card">
+              <h3>Meet Landing Page</h3>
+              <p>Responsive multi-section landing page with clean UI and performance optimizations.</p>
+            </div>
+            <div class="card">
+              <h3>Testimonial Grid</h3>
+              <p>Structured responsive layout using CSS Grid and Flexbox.</p>
+            </div>
+            <div class="card">
+              <h3>Instrument Player</h3>
+              <p>Interactive sound app using JavaScript events and DOM manipulation.</p>
+            </div>
+            <div class="card">
+              <h3>Dice Game</h3>
+              <p>Browser-based game with random logic and UI updates.</p>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <p>© 2026 Keerthana Gurram</p>
+          <p>add contact details</p>
+              <section id="contact">
+                <h2>Contact</h2>
+                <form>
+                  <label>Name</label>
+                  <input type="text" />
+                </form>
+              </section>
+        </footer>
     </main>
 </body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coming Soon</title>
+<style>
+  body {
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f3f3f3, #e8e8e8);
+    margin: 0;
+  }
 
-about 
-skills
-projects
-contact
+  .card {
+    text-align: center;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    max-width: 350px;
+  }
 
+  h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
 
+  p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+  }
+</style>
+</head>
 <body>
 
-  <main>
-
-
-    <section id="projects">
-      <h2>Projects</h2>
-
-      <article>
-        <h3>Project Title</h3>
-        <p>Description</p>
-        <a href="#">Live Demo</a>
-      </article>
-
-    </section>
-
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <form>
-        <label>Name</label>
-        <input type="text" />
-      </form>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>© 2026 Your Name</p>
-  </footer>
+  <div class="card">
+    <h1>This page is still under construction 🚧</h1>
+    <p>Please check back soon!</p>
+  </div>
 
 </body>
+</html>
+
+
+
+
+
